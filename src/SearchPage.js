@@ -11,7 +11,14 @@ function SearchPage() {
         <h2>FILTER</h2>
       </div>
       <hr />
-      <ChannelRow image Channel verified subs noOfVideos description />
+      <ChannelRow image="https://yt3.ggpht.com/a-/AOh14Ghyd7X3-yGlE6I7ylN9ljC4_rHF3Be4X9EvwdfxYqM=s88-c-k-c0xffffffff-no-rj-mo"
+       Channel="Mi Trendz"
+        verified
+         subs="660k"
+          noOfVideos={382}
+           description="Trend your Passion"
+            />
+            <hr/>
     </div>
   );
 }
