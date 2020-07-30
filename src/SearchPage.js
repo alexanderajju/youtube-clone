@@ -1,18 +1,19 @@
-import React from 'react';
-import './SearchPage.css'
-import TuneOutlinedIcon from '@material-ui/icons/TuneOutlined'
+import React from "react";
+import "./SearchPage.css";
+import TuneOutlinedIcon from "@material-ui/icons/TuneOutlined";
+import ChannelRow from "./ChannelRow";
 
 function SearchPage() {
-    return (
-        <div  className="searchPage">
-            <div className="searchPage__filter">
-                <TuneOutlinedIcon/>
-                <h2>FILTER</h2>
-
-            </div>
-            <hr/>
-        </div>
-    )
+  return (
+    <div className="searchPage">
+      <div className="searchPage__filter">
+        <TuneOutlinedIcon />
+        <h2>FILTER</h2>
+      </div>
+      <hr />
+      <ChannelRow image Channel verified subs noOfVideos description />
+    </div>
+  );
 }
 
-export default SearchPage
+export default SearchPage;
