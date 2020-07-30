@@ -1,36 +1,21 @@
 import React from 'react';
 import './App.css';
 import Header from './Header';
+import Sidebar from './Sidebar'
+import RecommentedVideos from './RecommentedVideos';
 
 function App() {
   return (
     <div className="app">
      
       <Header/>
-<h1>Test</h1>
-<h1>Test</h1>
-<h1>Test</h1>
-<h1>Test</h1>
-<h1>Test</h1>
-<h1>Test</h1>
 
-<h1>Test</h1>
-<h1>Test</h1>
-<h1>Test</h1>
+      <div className="app__page">
+      <Sidebar/>
+      <RecommentedVideos/>
+      </div>
+      
 
-<h1>Test</h1>
-<h1>Test</h1>
-
-<h1>Test</h1>
-<h1>Test</h1>
-
-<h1>Test</h1>
-<h1>Test</h1>
-<h1>Test</h1>
-<h1>Test</h1>
-<h1>Test</h1>
-<h1>Test</h1>
-<h1>Test</h1>
 
     </div>
   );
