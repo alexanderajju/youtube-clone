@@ -6,8 +6,8 @@ import { Icon } from '@material-ui/core';
 function SidebarRow({Icon,title}) {
     return (
         <div className="sidebarRow">
-            <Icon/>
-            <h2>{title}</h2>
+            <Icon className="sidebarRow__icon" />
+            <h2 className="sidebarRow__title">{title}</h2>
         </div>
     )
 }
