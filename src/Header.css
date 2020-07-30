@@ -3,6 +3,10 @@
   align-items: center;
   justify-content: space-between;
   padding: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: white;
 }
 .header__logo {
   height: 25px;
@@ -23,12 +27,12 @@
   flex: 1;
   border: none;
 }
-.header__inputButton{
-    width: 50px !important;
-    background-color: #fafafafa;
-    border-left: 1px solid lightgray ;
-    color: grey;
+.header__inputButton {
+  width: 50px !important;
+  background-color: #fafafafa;
+  border-left: 1px solid lightgray;
+  color: grey;
 }
-.header__icon{
-    margin-right: 5px;
+.header__icon {
+  margin-right: 5px;
 }
