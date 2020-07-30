@@ -13,6 +13,17 @@ function RecommentedVideos() {
                 views="1.9 M views"
                 timestamp="2 months ago"
                 channelImage="https://yt3.ggpht.com/a-/AOh14GgwaiCp63JOClbTXswJ4u8x9IXpD_qDn3tt3g=s68-c-k-c0x00ffffff-no-rj-mo"
+                />
+
+                 <VideoCard image="https://i.ytimg.com/an_webp/NO1Ohm_-LjM/mqdefault_6s.webp?du=3000&sqp=CIufivkF&rs=AOn4CLDcLGJ7vDpHFqL1oHIT5ep1E8PtAw"
+                title="വീട്ടിലിരുന്നു മടി പിടിച്ചോ മക്കളേ !! "
+                channel="
+                Albin Joshy
+                " 
+                views="22,803 views"
+                timestamp="30-Jul-2020"
+                channelImage="https://yt3.ggpht.com/a/AATXAJxgap6ZGre1eGaGaWQK20RkmH64Zx53-B_t_ZI-qQ=s48-c-k-c0xffffffff-no-rj-mo"
+
 
 
                 />
